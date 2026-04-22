@@ -9,7 +9,7 @@ public class ProfileCard extends Application {
     public void start(Stage stage) {
         BorderPane root = new BorderPane();
 
-        Label top = new Label("John Doe");
+        Label top = new Label("Sherbek Ikromaliyev");
         top.setStyle("-fx-background-color: #2C3E50; -fx-text-fill: white; -fx-font-weight: bold;");
         top.setPadding(new Insets(12));
         root.setTop(top);
